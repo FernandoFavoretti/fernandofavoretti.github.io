@@ -1,22 +1,15 @@
-url: https://fernandofavoretti.github.io/
+# in _config.yml
+title: "Some MLOps Stuff"
+author: Fernando Favoretti
 
-# Site settings
-title: "Fernando Favoretti"
-email: fernandofvprado@gmail.com
-description: "Some MLOps stuff"
+execute:
+  execute_notebooks: "off"
 
+repository:
+  url: https://github.com/FernandoFavoretti/fernandofavoretti.github.io
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: linkedin
-    url: http://linkedin.com/in/fernandofavoretti
-  - title: github
-    url: https://github.com/fernandofavoretti
-  - title: instagram
-    url: https://www.instagram.com/fefavoretti/
+exclude_patterns: [_build, .DS_Store, "**.ipynb_checkpoints"]
 
-
-# Build settings
-markdown: kramdown
-permalink: pretty
-highlighter: rouge
+sphinx:
+  config:
+    language: en
