@@ -1,7 +1,0 @@
-format: jb-book
-root: landing-page
-parts:
-- caption: TBD
-  chapters:
-  - file: TBD
-  
