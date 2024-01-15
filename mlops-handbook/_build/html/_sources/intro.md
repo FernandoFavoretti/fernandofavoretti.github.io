@@ -1,11 +1,15 @@
-# Welcome to your Jupyter Book
+# Scaling and Streamlining MLOps 
 
-This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation](https://jupyterbook.org) for more information.
+Uma abordagem simples porém técnica e rigorosa sobre a criação e aplicação de conceitos de MLOps e seu impacto na ponta de negócio, com exemplos práticos em python
 
-Check out the content pages bundled with this sample book to see more.
+## Como suportar esse livro
 
-```{tableofcontents}
-```
+Scaling and Streamlining MLOps é, antes de mais nada, um conteúdo open-source focado primariamente em trazer práticas e experiências comuns em MLOps e sesu respectivos impactos em seu negócio. O livro utiliza exclusivamente software livre focado em python e tem o objetivo final de disseminar um conhecimento ainda nebuloso utilizando diversas abordagens práticas.
+
+## Referências e recursos
+
+
+[https://martinfowler.com/articles/cd4ml.html] CD4ML by Martin Fowler
+[https://github.com/chiphuyen/machine-learning-systems-design/tree/master] Machine Learning Systems Design by Chip Huyen
+
+
