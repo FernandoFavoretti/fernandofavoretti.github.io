@@ -3,6 +3,8 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: markdown
+parts:
+- caption: I - Todas as dívidas devem ser resolvidas
+  chapters:
+  - file: 01-Introducao-MLOps.md
 

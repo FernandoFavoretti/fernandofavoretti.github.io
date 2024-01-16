@@ -6,7 +6,7 @@ Uma abordagem simples porém técnica e rigorosa sobre a criação e aplicação
 
 Scaling and Streamlining MLOps é, antes de mais nada, um conteúdo open-source focado primariamente em trazer práticas e experiências comuns em MLOps e sesu respectivos impactos em seu negócio. O livro utiliza exclusivamente software livre focado em python e tem o objetivo final de disseminar um conhecimento ainda nebuloso utilizando diversas abordagens práticas.
 
-## Referncias e recursos
+## Referencias e recursos
 
 
 [https://martinfowler.com/articles/cd4ml.html] CD4ML by Martin Fowler

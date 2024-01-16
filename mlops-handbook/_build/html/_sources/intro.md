@@ -9,7 +9,8 @@ Scaling and Streamlining MLOps é, antes de mais nada, um conteúdo open-source 
 ## Referências e recursos
 
 
-[https://martinfowler.com/articles/cd4ml.html](CD4ML) by Martin Fowler
-[https://github.com/chiphuyen/machine-learning-systems-design/tree/master](Machine Learning Systems Design) by Chip Huyen
+[CD4ML](https://martinfowler.com/articles/cd4ml.html) by Martin Fowler
+
+[Machine Learning Systems Design](https://github.com/chiphuyen/machine-learning-systems-design/tree/master) by Chip Huyen
 
 
