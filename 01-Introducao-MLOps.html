@@ -7,8 +7,9 @@
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Index &#8212; My sample book</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>01 - Introdução a MLOps &#8212; My sample book</title>
   
   
   
@@ -61,9 +62,10 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'genindex';</script>
-    <link rel="index" title="Index" href="#" />
+    <script>DOCUMENTATION_OPTIONS.pagename = '01-Introducao-MLOps';</script>
+    <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Scaling and Streamlining MLOps" href="intro.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -174,8 +176,8 @@ const thebe_selector_output = ".output, .cell_output"
             </li>
         </ul>
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">I - Todas as dívidas devem ser resolvidas</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="01-Introducao-MLOps.html">01 - Introdução a MLOps</a></li>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">01 - Introdução a MLOps</a></li>
 
 </ul>
 
@@ -248,7 +250,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fgenindex.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2F01-Introducao-MLOps.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -260,6 +262,54 @@ const thebe_selector_output = ".output, .cell_output"
   </span>
 <span class="btn__text-container">Open issue</span>
 </a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/01-Introducao-MLOps.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
 </li>
       
   </ul>
@@ -301,7 +351,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -312,11 +364,21 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1></h1>
+    <h1>01 - Introdução a MLOps</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">01 - Introdução a MLOps</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#codigo-dados-e-modelos">Código, Dados e Modelos</a></li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -326,13 +388,42 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
+  <section class="tex2jax_ignore mathjax_ignore" id="introducao-a-mlops">
+<h1>01 - Introdução a MLOps<a class="headerlink" href="#introducao-a-mlops" title="Permalink to this heading">#</a></h1>
+<blockquote>
+<div><p>Not all debt is bad, but all debt needs to be serviced.</p>
+</div></blockquote>
+<p>Não é novidade que produtos potencializados com aplicação de machine learning ou de inteligência artificial são cada vez mais comuns, a comunidade em torno desses temas se expande rapidamente e vemos isso claramente através da velocidade em que temas complexos como por exemplo, no momento que este livro esta sendo escrito, arquiteturas de transformers com suas redes de encoders e decoders são aplicadas nos mais simples gadgets e utensílios do dia-a-dia. Embora ter sua airfryer utilizando AI pareça ser algo corriqueiro (e talvez, inútil?), é resultado de um movimento que vem recebendo tanta força quanto o de ML &amp; AI em si, o de produtizar modelos de aprendizado de máquina.</p>
+<p>Em uma lente mais técnica, e talvez mais útil para humanidade, pesquisas de alto nível em aprendizado de máquina existem bem antes desses termos se popularizarem, biólogos analisam bases de dados complexas a fim de encontrar padrões protéicos podendo predizer estruturas de proteínas e aminoácidos para desenvolvimento de medicamentos, físicos simulam a interação entre materiais em várias escalas, da atômica a macroscópia realizando analises experimentais que levariam alguns anos se feitas de maneira manual, entre outros. Como grande parte do uso inicial das tecnologias de aprendizado de maquina partiram de pesquisas acadêmicas (ou bélicas), por natureza tanto o perfil do profissional que aplicava tais técnicas quanto a necessidade do trabalho não exigia a tão famigerada visão de produto onde, leia-se, necessidade de encapsular as coisas e transformar em algo utilizável na ponta final, de maneira organizavel, reprodutível e aplicável.</p>
+<p>Com o passar dos anos, as necessidades de consumo e produção de aprendizado de máquina se descolaram, e as conhecidas dívidas técnicas (technical debts) se mostraram especialmente presentes em aplicações de aprendizado de máquina e inteligência artificial onde, por incrivel que pareça, descobrimos que não era tão fácil levar jupyters notebooks repletos de códigos quase ilegíveis, sem uma ordem lógica e claramente não otimizados para um ambiente produtivo - muito menos instalar os mesmos na sua máquina de lavar potencializada com AI.</p>
+<p>Em 2015, o famoso paper (<a class="reference external" href="https://proceedings.neurips.cc/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf?ref=hackernoon.com">https://proceedings.neurips.cc/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf?ref=hackernoon.com</a>)[Hidden Technical Debt in Machine Learning Systems] dá o grande ponta pé inicial na ideia de que, produzir aplicações de aprendizado de máquina exige uma visão técnica e ,até então negligenciada, que aparece mais facilmente no design completo de sistemas que utilizam aprendizado de máquina (e não de estudos isolados) trazendo visões mais tradicionais de engenharia de software para o campo majoritariamente acadêmico ou de pesquisa.</p>
+<blockquote>
+<div><p>Desenvolver sistemas de aprendizado de máquina é relativamente barato e rápido mas mantê-los ao longo do tempo é caro e complexo</p>
+</div></blockquote>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="codigo-dados-e-modelos">
+<h1>Código, Dados e Modelos<a class="headerlink" href="#codigo-dados-e-modelos" title="Permalink to this heading">#</a></h1>
+</section>
 
-<h1 id="index">Index</h1>
-
-<div class="genindex-jumpbox">
- 
-</div>
-
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
 
                 </article>
               
@@ -344,6 +435,15 @@ document.write(`
                 <footer class="prev-next-footer">
                   
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="intro.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Scaling and Streamlining MLOps</p>
+      </div>
+    </a>
 </div>
                 </footer>
               
@@ -351,7 +451,22 @@ document.write(`
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"></div>
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">01 - Introdução a MLOps</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#codigo-dados-e-modelos">Código, Dados e Modelos</a></li>
+</ul>
+
+  </nav></div>
+
+</div></div>
               
             
           </div>
